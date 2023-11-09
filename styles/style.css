@@ -28,7 +28,7 @@ header.banner {
 
 div.banner-content {
   height: 100%;
-  width: 510px;
+  width: 550px;
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -88,7 +88,7 @@ div.banner-content button {
 
 section#course-content {
   margin: 80px auto;
-  width: 650px;
+  width: 800px;
   display: flex;
   gap: 24px;
   flex-direction: column;
@@ -149,7 +149,7 @@ section#transform-world {
 
 section#transform-world p {
   position: absolute;
-  left: calc(50% - 450px);
+  left: calc(50% - 580px);
 
   color: white;
   font-weight: 900;
@@ -173,7 +173,7 @@ section#professional-challenges {
 section#professional-challenges h2 {
   color: rgba(51, 168, 219, 1);
   font-size: 32px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
 }
