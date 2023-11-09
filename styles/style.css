@@ -28,7 +28,7 @@ header.banner {
 
 div.banner-content {
   height: 100%;
-  width: 500px;
+  width: 510px;
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -46,14 +46,9 @@ div.logo {
   align-items: center;
 }
 
-div.logo img {
-  width: 100%;
-  object-fit: contain;
-}
-
 div.banner-content h1 {
   font-weight: 900;
-  font-size: 32px;
+  font-size: 40px;
   text-transform: uppercase;
   background-image: linear-gradient(
     rgba(51, 168, 219, 1),
@@ -82,11 +77,11 @@ div.banner-content button {
   border-image-width: 2px;
   background-color: transparent;
   color: rgba(49, 168, 221, 1);
-  font-weight: 700;
+  font-weight: 900;
   font-size: 16px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  margin-top: 16px;
+  margin: 16px 0;
 }
 
 /* SECTION: COURSE-CONTENT */
@@ -154,14 +149,14 @@ section#transform-world {
 
 section#transform-world p {
   position: absolute;
-  left: calc(50% - 400px);
+  left: calc(50% - 450px);
 
   color: white;
   font-weight: 900;
   font-size: 40px;
   text-shadow: 3px 2px rgba(51, 168, 219, 1);
   text-transform: lowercase;
-  width: 200px;
+  width: 250px;
 }
 
 /* SECTION: PROFESSIONAL-CHALLENGES */
@@ -172,7 +167,7 @@ section#professional-challenges {
   flex-direction: column;
   align-items: center;
   gap: 25px;
-  width: 650px;
+  width: 800px;
 }
 
 section#professional-challenges h2 {
@@ -184,7 +179,8 @@ section#professional-challenges h2 {
 }
 
 section#professional-challenges img {
-  width: 80%;
+  width: 660px;
+  object-fit: contain;
 }
 
 section#professional-challenges p {
@@ -206,12 +202,12 @@ footer {
 }
 
 footer img.dio-logo {
-  width: 240px;
+  width: 310px;
 }
 
 footer p {
   color: white;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 footer p a {
